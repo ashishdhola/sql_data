@@ -1,0 +1,20 @@
+--CREATE TABLE PRODUCT_MASTER (
+	--PRODUCTNO VARCHAR(6) primary key
+	--, DESCRIPTION VARCHAR(15) not null
+	--, PROFITPERCENT NUMERIC(4, 2) not null
+	--, UNITMEASURE VARCHAR(10) not null
+	--, QTYONHAND NUMERIC(8) not null
+	--, REORDERLVL NUMERIC(8) not null
+	--, SELLPRICE NUMERIC(8, 2) not null
+	--, COSTPRICE NUMERIC(8, 2) not null
+	--);
+--insert into PRODUCT_MASTER values('P00001','T-Shirts','5','piece','200','50','350','250');
+--insert into PRODUCT_MASTER values('P0345','Shirts','6','piece','150','50','500','350');
+--insert into PRODUCT_MASTER values('P06734','Cotton Jeans','5','piece','100','20','600','450');
+--insert into PRODUCT_MASTER values('P07865','Jeans','5','piece','100','20','750','500');
+--insert into PRODUCT_MASTER values('P07868','Trousers','2','piece','150','50','850','550');
+--insert into PRODUCT_MASTER values('P07885','Pull Overs','2.5','piece','80','30','700','450');
+--insert into PRODUCT_MASTER values('P07965','DEnim Shirts','4','piece','100','40','350','250');
+--insert into PRODUCT_MASTER values('P07975','Lycra Tops','5','piece','70','30','300','175');
+--insert into PRODUCT_MASTER values('P08865','Skirts','5','piece','75','30','450','300');
+select * from PRODUCT_MASTER ;

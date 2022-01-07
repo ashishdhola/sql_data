@@ -1,0 +1,18 @@
+--CREATE TABLE SALESMAN_MASTER (
+	--SALESMANNO VARCHAR(6) primary key
+	--, SALESMANNAME VARCHAR(20) not null
+	--, ADDERSS1 VARCHAR(30) not null
+	--, ADDERSS2 VARCHAR(30)
+	--, CITY VARCHAR(20)
+	--, PINCODE NUMERIC(8)
+	--, STATE VARCHAR(20)
+	--, SALAMT NUMERIC(8, 2) not null
+	--, TGTTOGET NUMERIC(6, 2) not null
+	--, YDTSALES NUMERIC(6, 2) not null
+	--, REMARKS VARCHAR(60)
+	--);
+--insert into SALESMAN_MASTER values('S00001','Aman','A/14','Worli','Mumbai','400002','Maharashtra','3000','100','50','Good');
+--insert into SALESMAN_MASTER values('S00002','Omkar','65','NAriman','Mumbai','400001','Maharashtra','3000','200','100','Good');
+--insert into SALESMAN_MASTER values('S00003','Raj','P-7','Bandra','Mumbai','400032','Maharashtra','3000','200','100','Good');
+--insert into SALESMAN_MASTER values('S00004','Ashish','A/5','Juhu','Mumbai','400044','Maharashtra','3500','200','150','Good');
+select * from SALESMAN_MASTER ;

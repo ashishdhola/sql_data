@@ -1,0 +1,12 @@
+--create table CLINTE_MASTER(CLIENTNO varchar(6),NAME varchar(20),ADDERSS1 varchar(30),ADDERSS2 varchar(30),CITY varchar(15),PINCODE numeric(8),STATE varchar(15),BALDUE numeric(10,2));
+--insert into CLINTE_MASTER values('C00001','ivan Bayross','','','Mumbai','400054','Maharashtra','15000');
+--insert into CLINTE_MASTER values('C00002','Mamta Muzumdar','','','Madras','780001','Tamil Nadu','0');
+--insert into CLINTE_MASTER values('C00003','Chhaya Bankar','','','Mumbai','400057','Maharashtra','5000');
+--insert into CLINTE_MASTER values('C00004','Ashwini joshi','','','Bangalore','560001','Karnataka','0');
+--insert into CLINTE_MASTER values('C00005','Hansel Colaco','','','Mumbai','400060','Maharashtra','2000');
+--insert into CLINTE_MASTER values('C00006','Deepak Sharma','','','Mangalore','560050','Karnataka','0');
+--select NAME from CLINTE_MASTER ;
+select * from CLINTE_MASTER; 
+--select NAME,CITY from CLINTE_MASTER where CITY='Mumbai';
+--update CLINTE_MASTER set CITY='Bangalore' where CLIENTNO='C00005'
+--update CLINTE_MASTER set BALDUE='1000' where CLIENTNO='C00001'

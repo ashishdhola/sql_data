@@ -1,0 +1,15 @@
+--create table data (fname varchar(20),lname varchar(20), course varchar(20));
+--insert into data values('Nirav','mungala','Nodejs');
+--insert into data values('Ashish','Dhola','C++');
+--insert into data values('Umang','Moradiya','Java script');
+--insert into data values('Nirbhay','Kotadiya','Nodejs');
+--select * from data ;
+--select fname from data ;
+--select * from data where course='Nodejs'
+--insert into data values ('meet','lathiya','Nodejs');
+--delete from data where fname='meet';
+--select * from data where fname like 'A%'; 
+--select * from data where fname like '_i%';
+--select * from data where fname like '%a_';
+--select * from data where fname like '__r%';   
+--update data set course='Java script' where fname='Nirav';
